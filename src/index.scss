@@ -16,6 +16,10 @@
 html {
     overflow-y: scroll;
     height: 100%;
+
+    @media (max-width: 380px) {
+        width: 44vh;
+    }
 }
 
 ul,
