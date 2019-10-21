@@ -7,4 +7,12 @@
     .InputWithButton {
         margin-bottom: 20px;
     }
+
+    @media (max-width: 800px) {
+        max-width: 780px;
+    }
+
+    @media (max-width: 400px) {
+        max-width: 380px;
+    }
 }
