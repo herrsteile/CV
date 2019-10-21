@@ -91,7 +91,7 @@ class Skills extends Component {
                 experience={skill.experience}
             />))
 
-        let gridTemplateColumnsValue = `repeat(${skills.length + 8}, 200px`;
+        let gridTemplateColumnsValue = `repeat(${skills.length + 8}, 19.22vh`;
 
         return (
             <div className='Skills'>
@@ -100,7 +100,7 @@ class Skills extends Component {
                         style={{
                             marginLeft: position + 'px',
                             transition: transition,
-                            gridTemplateColumns: gridTemplateColumnsValue
+                            gridTemplateColumns: gridTemplateColumnsValue,
                         }}>
                         {skills.slice(-4)}
                         {skills}

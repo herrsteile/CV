@@ -20,6 +20,10 @@
     align-items: center;
     border-radius: 5px;
 
+    @media (max-width: 400px) {
+        width: 80%
+    }
+
     .Input {
         margin-bottom: 10px;
     }
