@@ -1,0 +1,51 @@
+@import '../../_variables.scss';
+
+.Header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: $header_color;
+    box-shadow: 1px 1px 5px rgb(51, 60, 88);
+    color: #fff;
+    align-items: center;
+}
+
+.HeaderWrapper {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 800px) {
+        max-width: 780px;
+        padding-left: 10px;
+        align-items: flex-start;
+        height: 70px;
+    }
+
+    @media (max-width: 400px) {
+        max-width: 380px;
+    }
+}
+
+.LeftWrapper,
+.RightWrapper {
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+
+.RightWrapper {
+    @media (max-width: 800px) {
+        align-items: flex-start;
+    }
+}
+
+.LeftWrapper {
+    height: 100%;
+}

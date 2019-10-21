@@ -1,0 +1,15 @@
+@import '../../../_variables.scss';
+
+.Appeal {
+    width: 100%;
+    background-color: $accent;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $font_color_black;
+
+    span {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

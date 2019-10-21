@@ -1,0 +1,17 @@
+@import '../../../_variables.scss';
+
+.Button {
+        width: 150px;
+        height: 35px;
+        border-radius: 0 3px 3px 0;
+        background-color: $second_color;
+        font-size: 1.1rem;
+        border: none;
+        transition: background-color 400ms linear;
+        cursor: pointer;
+
+        &:hover {
+            background-color: darken($second_color, 15%);
+            
+    }
+}

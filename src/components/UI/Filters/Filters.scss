@@ -1,0 +1,73 @@
+@import '../../../_variables.scss';
+
+.Filters {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.FiltersHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 20px;
+    z-index: 100;
+    background-color: $second_color;;
+
+    .fa-chevron-down {
+        transform: rotate(0deg);
+        transition: transform 300ms ease;
+    }
+
+    &:hover {
+        background-color: darken($second_color, 2%);
+    }
+}
+
+.FiltersContent {
+    overflow: hidden;
+}
+
+.Hidden {
+    .fa-chevron-down {
+        transform: rotate(90deg);
+        transition: transform 300ms ease;
+    }
+} 
+
+.filterSlider {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $font_color_black;
+    
+    span {
+        padding: 0 20px 10px;
+    }
+
+    .Input {
+        width: 100%;
+        cursor: pointer;
+        padding-left: 0;
+        transform-origin: 75px 75px;
+
+        &::-moz-focus-outer {
+            border: 0px;
+        }
+    }
+}
+
+#filterSliderContent {
+    &::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 2px;
+        cursor: pointer;
+        box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+        background: lighten($font_color_gray, 50%);
+        border-radius: 1.3px;
+        border: 0.2px solid #010101;
+      }
+}

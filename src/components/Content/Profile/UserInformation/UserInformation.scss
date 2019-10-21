@@ -1,0 +1,89 @@
+@import '../../../../_variables.scss';
+
+
+.UserInformation {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    background-color: $accent;
+    border-bottom: 2px solid $second_color;
+    padding: 20px;
+    user-select: none;
+    margin-bottom: 5px;
+
+    @media (max-width: 800px) {
+        max-width: 780px;
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+
+    @media (max-width: 400px) {
+        max-width: 380px;
+    }
+}
+
+#UserProfilePhoto {
+    height: 350px;
+
+    @media (max-width: 800px) {
+        width: 70%;
+        height: auto;
+    }
+}
+
+#UserProfilePhotoModal {
+    height: 350px;
+    cursor: pointer;
+
+    @media (max-width: 800px) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.UserData {
+    font-size: 1.1rem;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+
+    .fas.fa-edit {
+        font-size: .8rem;
+        color: transparent;
+        transition: color 500ms ease;
+    }
+
+    @media (max-width: 800px){
+        grid-template-columns: 110px 1fr;
+        font-size: .9rem;
+    }
+}
+
+ul li {
+    margin-bottom: 5px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.UserDataLeft {
+    color: $font_color_gray;
+
+    ul {
+        cursor: default;
+    }
+}
+
+.UserDataRight {
+    color: $font_color_black;
+}
+
+#github {
+    color: $font_color_black;
+
+    &:hover {
+        color: $font_color_gray;
+        cursor: pointer;
+    }
+}

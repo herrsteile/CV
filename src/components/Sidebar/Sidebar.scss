@@ -1,0 +1,39 @@
+@import '../../_variables.scss';
+
+.Sidebar {
+    height: 100%;
+    background-color: $accent;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+
+    @media (max-width: 800px) {
+        display: none;
+    }
+
+}
+
+.SidebarFunctions {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: $second_color;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($second_color, 2%);
+    }
+}
+
+.ClearSidebar {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+    @media (max-width: 800px) {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+@import '../../../_variables.scss';
+
+.WorkWithApi {
+    padding: 20px;
+    background-color: $accent;
+
+    .InputWithButton {
+        margin-bottom: 20px;
+    }
+}

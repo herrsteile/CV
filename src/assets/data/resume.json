@@ -1,0 +1,102 @@
+{
+    "userData": {
+        "profilePhoto": "https://i.pinimg.com/564x/86/34/ab/8634ab84d12e0e37785bb19f31e205e6.jpg",
+        "modalAvatarPhoto": "https://i.pinimg.com/originals/ff/87/88/ff8788b80d39079f46378e3fb541405b.jpg",
+        "personalInfo": {
+            "first_name": "Dmitriy",
+            "patronymic": "Igorevich",
+            "last_name": "Miroshnychenko",
+            "birthday": "10.10.1997",
+            "city": "Dnipro",
+            "education": "DIIT",
+            "marital_status": "Married"
+        },
+        "contacts": {
+            "phoneNumber": "+38(067)-564-35-40",
+            "github": "https://github.com/herrsteile",
+            "email": "miroshnychenko.job@gmail.com"
+        }
+    },
+    "skills": {
+        "html5": {
+            "id": "1",
+            "skillImg": "https://i.pinimg.com/originals/bd/63/4b/bd634b078c891a3b3a646f6429c47a6d.png",
+            "type": "professional",
+            "experience": "1 year"
+        },
+        "css3": {
+            "id": "2",
+            "skillImg": "https://i.pinimg.com/originals/54/31/6a/54316a92a8bedb54452ad394d7474786.png",
+            "type": "professional",
+            "experience": "1 year"
+        },
+        "scss": {
+            "id": "3",
+            "skillImg": "https://i.pinimg.com/originals/1e/1d/b2/1e1db25dd87bca16976d38d85934c8af.png",
+            "type": "professional",
+            "experience": "1 year"
+        },
+        "object-orientedPprogramming": {
+            "id": "4",
+            "skillImg": "https://i.pinimg.com/originals/02/2d/f8/022df815bcfbb04334bbbaa2cccc396c.png",
+            "type": "professional",
+            "experience": "6 month"
+        },
+        "javascript": {
+            "id": "5",
+            "skillImg": "https://i.pinimg.com/originals/a0/f4/70/a0f4706ee1214268b0fd59b1fa5a082c.png",
+            "type": "professional",
+            "experience": "8 month"
+        },
+        "es6": {
+            "id": "6",
+            "skillImg": "https://i.pinimg.com/originals/7d/6b/cf/7d6bcf9a127b795ae55fc20eb7d55677.png",
+            "type": "professional",
+            "experience": "6 month"
+        },
+        "react": {
+            "id": "7",
+            "skillImg": "https://i.pinimg.com/originals/e6/b2/25/e6b22593b4b498a0151fc4bb5137d937.png",
+            "type": "professional",
+            "experience": "3 month"
+        },
+        "git": {
+            "id": "8",
+            "skillImg": "https://i.pinimg.com/originals/56/40/95/564095b05c52215257f267dec6c70ade.png",
+            "type": "professional",
+            "experience": "1 year"
+        },
+        "webpack": {
+            "id": "9",
+            "skillImg": "https://i.pinimg.com/originals/5c/c9/40/5cc940e13d7e47abac10a27cfe90a88d.png",
+            "type": "professional",
+            "experience": "3 month"
+        },
+        "json": {
+            "id": "10",
+            "skillImg": "https://i.pinimg.com/originals/b6/73/80/b67380b5013aa63a1a4db3054bf3c79f.png",
+            "type": "professional",
+            "experience": "6 month"
+        },
+        "communicative": {
+            "id": "11",
+            "skillImg": "https://i.pinimg.com/originals/16/61/98/166198df816774a573984fbba6cd8501.png",
+            "type": "personal"
+        },
+        "responsible": {
+            "id": "12",
+            "skillImg": "https://i.pinimg.com/originals/16/61/98/166198df816774a573984fbba6cd8501.png",
+            "type": "personal"
+        },
+        "diligent": {
+            "id": "13",
+            "skillImg": "https://i.pinimg.com/originals/16/61/98/166198df816774a573984fbba6cd8501.png",
+            "type": "personal"
+        },
+        "fast_learner": {
+            "id": "14",
+            "skillImg": "https://i.pinimg.com/originals/16/61/98/166198df816774a573984fbba6cd8501.png",
+            "type": "personal"
+        }
+    }
+}

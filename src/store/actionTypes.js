@@ -1,0 +1,9 @@
+export const SET_USER_SKILLS = 'SET_USER_SKILLS';
+export const SET_FILTERS_TYPE = 'SET_FILTERS_TYPE';
+export const SET_FILTERS_EXPERIENCE = 'SET_FILTERS_EXPERIENCE';
+export const SET_MOVIES_LIST = 'SET_MOVIES_LIST';
+export const USER_DATA = 'USER_DATA';
+export const TOGGLE_LOADING = 'TOGGLE_LOADING';
+export const ADD_COMMENT = 'ADD_COMMENT';
+export const ADD_POST = 'ADD_POST';
+export const FETCH_ALL_SKILLS = 'FETCH_ALL_SKILLS';

@@ -1,0 +1,32 @@
+@import './_variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+    &::before,
+    &::after {
+        @extend *;
+    }
+
+}
+
+html {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}

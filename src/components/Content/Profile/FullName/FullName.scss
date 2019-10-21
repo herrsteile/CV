@@ -1,0 +1,12 @@
+@import '../../../../_variables.scss';
+
+.FullName {
+    background-color: $second_color;
+    color: $font_color_gray;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+

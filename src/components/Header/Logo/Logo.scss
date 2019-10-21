@@ -1,0 +1,23 @@
+@import '../../../_variables.scss';
+
+.Logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 3px #111;
+    background-color: lighten($header_color, 10%);
+    user-select: none;
+    color: $font_color_logo;
+    font-weight: bold;
+
+    @media screen and (max-width: 720px) {
+        min-width: 105px;
+    }
+
+    @media screen and (max-width: 400px) {
+        min-width: 105px;
+    }
+}

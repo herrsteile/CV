@@ -1,0 +1,18 @@
+@import '../../_variables.scss';
+
+.Footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: lighten($header_color, 5%);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $font_color_footer;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 2px #111;
+    box-shadow: -2px -2px 5px lighten($header_color, 5%);
+    font-weight: bold;
+}
