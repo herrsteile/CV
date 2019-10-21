@@ -26,14 +26,23 @@
     height: 355px;
     width: 880px;
 
-    @media (max-width: 900px) {
+    @media (max-width: 800px) {
         width: 90%;
+        overflow-x: scroll;
+    }
+
+    @media (max-width: 400px) {
+        width: 100%;
     }
 }
 
 .skills-slide {
     display: grid;
     grid-gap: 20px;
+
+    @media (max-width: 400px) {
+        display: flex;
+    }
 }
 
 .SliderButtons {
@@ -45,5 +54,9 @@
     .fas.fa-arrow-right {
         font-size: 1.6rem;
         color: $font_color_gray;
+    }
+
+    @media (max-width: 400px) {
+        display: none;
     }
 }
