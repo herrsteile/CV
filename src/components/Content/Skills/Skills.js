@@ -91,7 +91,7 @@ class Skills extends Component {
                 experience={skill.experience}
             />))
 
-        let gridTemplateColumnsValue = `repeat(${skills.length + 8}, 19.22vh`;
+        let gridTemplateColumnsValue = `repeat(${skills.length + 8}, 200px`;
 
         return (
             <div className='Skills'>
@@ -115,6 +115,7 @@ class Skills extends Component {
                         <i className="fas fa-arrow-right"></i>
                     </Button>
                 </div>
+                <div className="notAdaptive">Not adaptive</div>
             </div >
         )
     }
