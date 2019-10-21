@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import Post from '../../Posts/Post/Post';
 import { addComment } from '../../../../../store/posts/actions';
-import Posts from '../../../Profile/Posts/Posts';
+import Posts from '../../Posts/Posts';
 import Backdrop from '../../../../UI/Backdrop/Backdrop';
 import './ModalAvatar.scss';
 
